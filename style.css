@@ -1,0 +1,65 @@
+
+*:focus{
+    box-shadow: none !important;
+} 
+ 
+.underln:hover{
+    text-decoration: underline !important;
+    color: gray !important;
+
+}
+input{
+   border-radius: 0 !important;
+   border: none !important;
+    outline: none !important;
+    border-bottom: thin solid!important;
+
+}
+input::placeholder{
+    font-size: 15px;
+    padding-bottom: 0 !important;
+   
+
+}
+
+.key{
+    width: 33px;
+}
+.small{
+    font-size: 12px !important;
+}
+.bg-set{
+    background: url(/images/Microsoft_login_screen.svg) !important;
+    height: 100vh;
+    position: relative;
+
+}
+.large-sc{
+    width: 450px !important;
+}
+.shadow{
+    box-shadow: 12px 12px 12px 10px rgba(255,255,255,0.9) !important;
+}
+.btn-x {
+   width: 100px !important;
+
+}
+.btn-secondary{
+   background:rgba(0, 0, 0, 0.207)!important;
+   border: none !important;
+}
+.btn-primary{
+   background:rgb(3, 94, 167)!important;
+   border: none !important; 
+}
+.btn-primary:hover,.btn-secondary:hover{
+    opacity: 0.9;
+
+}
+.mt{
+    margin-top: 20vh !important;
+}
+.prime{
+    color: rgb(3, 94, 167) !important;
+}
+
